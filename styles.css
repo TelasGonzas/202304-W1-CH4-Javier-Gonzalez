@@ -41,6 +41,12 @@
   color: white;
 }
 
+.button__view:hover {
+  background-color: white;
+  color: rgb(255, 102, 0);
+  border: 3px rgb(255, 102, 0) solid;
+}
+
 .image-section {
   width: 350px;
   height: 400px;
@@ -55,6 +61,15 @@
   max-height: 100%;
   margin: 2rem;
   max-width: 100%;
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-section__photo:hover {
+  color: white;
+  background-color: black;
+  position: absolute;
 }
 
 /*# sourceMappingURL=styles.css.map */
